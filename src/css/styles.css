@@ -8,6 +8,76 @@
 
 body {
   font-size: 15px;
+  background-color: hsl(0deg, 0%, 100%);
+}
+
+main {
+  margin: 4rem 2rem 1rem;
+}
+main .desc {
+  text-align: center;
+}
+main .desc h1 {
+  color: hsl(300deg, 43%, 22%);
+  font-weight: 700;
+  font-size: 2rem;
+  padding: 0 1rem;
+}
+main .desc p {
+  margin: 1.5rem 0;
+  line-height: 1.625;
+  color: hsl(303deg, 10%, 53%);
+  font-weight: 500;
+  font-size: 1rem;
+}
+main .stars {
+  margin: 2rem 0;
+  text-align: center;
+}
+main .stars .star {
+  padding: 1rem 0;
+  margin: 1rem 0;
+  border-radius: 0.5rem;
+  background-color: hsl(300deg, 24%, 96%);
+}
+main .stars .star--review {
+  margin-top: 0.75rem;
+}
+main .stars .star--review p {
+  font-size: 1rem;
+  font-weight: 700;
+  color: hsl(300deg, 43%, 22%);
+}
+main .testimoni--card {
+  background-color: hsl(300deg, 43%, 22%);
+  padding: 2rem 1.5rem;
+  margin: 1rem 0;
+  border-radius: 0.5rem;
+  color: hsl(0deg, 0%, 100%);
+}
+main .testimoni--card--author {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+main .testimoni--card--author img {
+  width: 35px;
+  border-radius: 50%;
+}
+main .testimoni--card--author--name p {
+  font-size: 1rem;
+}
+main .testimoni--card--author--name p:first-child {
+  font-weight: 700;
+}
+main .testimoni--card--author--name p:last-child {
+  color: hsl(333deg, 80%, 67%);
+  margin-top: 0.3rem;
+}
+main .testimoni--card--desc p {
+  line-height: 1.625;
+  font-size: 1rem;
 }
 
 /*# sourceMappingURL=styles.css.map */
